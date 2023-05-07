@@ -7,3 +7,4 @@
 * [ফ্ৰন্ট-এণ্ড ক'ড](https://github.com/xxai-art/web)
 * [সামগ্ৰিকভাৱে চাইটটোৰ বাবে ভাষা পেক](https://github.com/xxai-art/web/tree/main/i18n)
 * [প্ৰৱেশ মডিউলসমূহৰ বাবে ভাষা পেকসমূহ](https://github.com/wacpkg/user/tree/main/ui.i18n)
+* [ৱেবছাইট বহুভাষিক নথিপত্ৰ](https://github.com/xxai-doc)
