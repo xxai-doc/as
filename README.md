@@ -2,7 +2,7 @@
 
 # xxAI.art
 
-* [ফ্ৰন্ট-এণ্ড ক'ড](https://github.com/xxai-art/web)
+ৱেবছাইটটোৰ ফ্ৰন্ট-এণ্ড ক'ড মুক্ত উৎস, অনুবাদক অনুকূল কৰি তোলাত সহায় কৰিবলৈ আদৰণি জনোৱা হৈছে
 
 * [ফ্ৰন্ট-এণ্ড ক'ড](https://github.com/xxai-art/web)
 * [সামগ্ৰিকভাৱে চাইটটোৰ বাবে ভাষা পেক](https://github.com/xxai-art/web/tree/main/i18n)
