@@ -1,10 +1,10 @@
 <p align="center"><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/logo.svg"/></a><br/><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/xxai.svg"/></a></p><p align="center"><a href="https://github.com/xxai-art/doc#readme"><img alt="I18N" src="https://cdn.jsdelivr.net/gh/wactax/img/t.svg"/></a>　<a href="https://groups.google.com/u/0/g/xxai-art"><img alt="Google Groups" src="https://cdn.jsdelivr.net/gh/wactax/img/g-groups.svg"/></a></p>
 
-# xxAI.art
+প্ৰথমে nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) সংস্থাপন কৰাটো উপদেশিত, আৰু তাৰ পিছত `direnv allow` পঞ্জিকাত প্ৰৱেশ কৰাৰ পিছত ( [.envrc](https://github.com/xxai-art/doc/blob/main/.envrc) পঞ্জিকাত প্ৰৱেশ কৰাৰ পিছত স্বয়ংক্ৰিয়ভাৱে নিষ্পাদন কৰা হব) ।
 
-ৱেবছাইট ক'ডৰ এটা অংশ মুক্ত উৎস, অনুবাদক অনুকূল কৰাত সহায় কৰিবলৈ আদৰণি জনোৱা হৈছে।
+অৰ্থ হ’ল: জাপানী, কোৰিয়ান, ইংৰাজীলৈ চীনা অনুবাদ, আন সকলো ভাষালৈ ইংৰাজী অনুবাদ। যদি আপুনি কেৱল চীনা আৰু ইংৰাজী সমৰ্থন কৰিব বিচাৰে, আপুনি কেৱল `zh: en` লিখিব পাৰে।
 
-## ফ্ৰন্ট-এণ্ড ক'ড
+অৰ্থ হ’ল: জাপানী, কোৰিয়ান, ইংৰাজীলৈ চীনা অনুবাদ, আন সকলো ভাষালৈ ইংৰাজী অনুবাদ। যদি আপুনি কেৱল চীনা আৰু ইংৰাজী সমৰ্থন কৰিব বিচাৰে, আপুনি কেৱল `zh: en` লিখিব পাৰে।
 
 * [ফ্ৰন্ট-এণ্ড ক'ড](https://github.com/xxai-art/web)
 * [সামগ্ৰিকভাৱে চাইটটোৰ বাবে ভাষা পেক](https://github.com/xxai-art/web/tree/main/i18n)
@@ -31,15 +31,15 @@
 
 ### নথিপত্ৰ অনুবাদ স্বয়ংক্ৰিয়কৰণ নিৰ্দেশনা
 
-ভঁৰাল [xxai-art/doc](https://github.com/xxai-art/doc) চাওক
+ক'ড ভঁৰাল [xxai-art/doc](https://github.com/xxai-art/doc) চাওক
 
-প্ৰথমে nodejs, [direnv](https://direnv.net) আৰু [bun](https://github.com/oven-sh/bun) সংস্থাপন কৰাটো উপদেশিত, আৰু তাৰ পিছত পঞ্জিকাত প্ৰৱেশ কৰাৰ পিছত `direnv allow` চলাওক ।
+প্ৰথমে nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) সংস্থাপন কৰাটো উপদেশিত, আৰু তাৰ পিছত `direnv allow` পঞ্জিকাত প্ৰৱেশ কৰাৰ পিছত ( [.envrc](https://github.com/xxai-art/doc/blob/main/.envrc) পঞ্জিকাত প্ৰৱেশ কৰাৰ পিছত স্বয়ংক্ৰিয়ভাৱে নিষ্পাদন কৰা হব) ।
 
-শ শ ভাষালৈ অনুবাদ কৰা অত্যধিক বৃহৎ গুদামৰ পৰা হাত সাৰিবলৈ মই প্ৰতিটো ভাষাৰ বাবে এটা সুকীয়া ক’ড গুদাম সৃষ্টি কৰিলোঁ আৰু এই গুদামটো সংৰক্ষণ কৰিবলৈ এটা সংস্থা সৃষ্টি কৰিলোঁ
+শ শ ভাষালৈ অনুবাদ কৰা বৃহৎ ক’ড বেছটো এৰাই চলিবলৈ মই প্ৰতিটো ভাষাৰ বাবে এটা সুকীয়া ক’ড বেছ তৈয়াৰ কৰিলোঁ আৰু ক’ড বেছটো সংৰক্ষণ কৰিবলৈ এটা সংস্থা সৃষ্টি কৰিলোঁ
 
-পৰিৱেশ চলক `GITHUB_ACCESS_TOKEN` সংহতি কৰিলে আৰু তাৰ পিছত [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) চলালে স্বয়ংক্ৰিয়ভাৱে গুদাম সৃষ্টি হ'ব।
+পৰিৱেশ চলক `GITHUB_ACCESS_TOKEN` সংহতি কৰিলে আৰু তাৰ পিছত [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) চলালে স্বয়ংক্ৰিয়ভাৱে ক'ড ভঁৰাল সৃষ্টি হ'ব।
 
-অৱশ্যে গুদামতও ৰাখিব পাৰে।
+অৱশ্যে, আপুনি ইয়াক ক’ড বেছতো ৰাখিব পাৰে।
 
 অনুবাদ লিপি প্ৰসংগ [run.sh](https://github.com/xxai-art/doc/blob/main/run.sh)
 
@@ -71,4 +71,8 @@ zh: ja ko en
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ```
 
-অনুবাদ লিপিয়ে `.i18n` পঞ্জিকাত এটা অনুবাদ কেশ্ব সৃষ্টি কৰিব, অনুগ্ৰহ কৰি ইয়াক `git status` সৈতে পৰীক্ষা কৰক আৰু ইয়াক ক'ড ভঁৰালত যোগ কৰক যাতে পুনৰাবৃত্তিমূলক অনুবাদ এৰাই চলিব পাৰি।
+অনুবাদ লিপিয়ে `.i18n` পঞ্জিকাত এটা অনুবাদ কৰা কেশ্ব সৃষ্টি কৰিব, অনুগ্ৰহ কৰি ইয়াক `git status` সৈতে পৰীক্ষা কৰক আৰু ইয়াক ক'ড ভঁৰালত যোগ কৰক যাতে পুনৰাবৃত্তিমূলক অনুবাদ এৰাই চলিব পাৰি।
+
+অনুগ্ৰহ কৰি `bunx i18n` চলাওক প্ৰতিবাৰ আপুনি অনুবাদ পৰিবৰ্তন কৰাৰ সময়ত কেশ্ব আপডেইট কৰিবলে ।
+
+যদি মূল লিখনী আৰু অনুবাদ একে সময়তে পৰিবৰ্তন কৰা হয়, কেশ্ব বিভ্ৰান্ত হ'ব, গতিকে যদি আপুনি পৰিবৰ্তন কৰিব বিচাৰে, আপুনি কেৱল এটা পৰিবৰ্তন কৰিব পাৰিব, আৰু তাৰ পিছত কেশ্ব আপডেইট কৰিবলে `bunx i18n` চলাওক।
