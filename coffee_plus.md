@@ -2,13 +2,13 @@
 
 [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) , coffeescript বাক্যবিন্যাসৰ ভিত্তিত কিছুমান বৈশিষ্ট্য যোগ কৰক, [coffee_plus](./coffee_plus.md) চাওক।
 
-* চলক ঘোষণা কৰক
+## চলক ঘোষণা কৰক
 
 ```
 + var1, var2
 ```
 
-* ঘোষণা লেবেল
+## ঘোষণা লেবেল
 
 `:$` [svelte](https://svelte.dev/docs#component-format-script-3-$-marks-a-statement-as-reactive) ৰ সৈতে ব্যৱহাৰৰ বাবে।
 
@@ -90,7 +90,7 @@ $ : (func = function() {
 });
 ```
 
-* দ্ৰুত আমদানি
+## দ্ৰুত আমদানি
 
 ```
 > zx/globals:
